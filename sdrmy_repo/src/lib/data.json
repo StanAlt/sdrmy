@@ -1,0 +1,916 @@
+[
+  {
+    "category": "Image Generators",
+    "tools": [
+      {
+        "name": "Adobe Firefly 3",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "MidJourney V7",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Stable Diffusion 3.5",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Leonardo AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Ideogram 3.0",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "FLUX.1",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Reve Image",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Recraft V3",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Freepik",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Imagen 3 by Google",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "Writing & Web SEO",
+    "tools": [
+      {
+        "name": "QuillBot",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "ContentShake AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Rytr",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Undetectable AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Free AI Content Writer",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "WriteSonic",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Semrush",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "GPTZero",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Jasper",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "LanguageTool",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "AI Chat & Assistant",
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Grok-3",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Claude AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Gemini AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Qwen2.5-Max",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "DeepSeek-R1",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Microsoft Copilot",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Meta AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "ChatSonic",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Le Chat by Mistral AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "Video Generators",
+    "tools": [
+      {
+        "name": "Veo 2 Google",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Luma Dream Machine",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Runway Gen-4",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Kling 2.0",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Sora by OpenAI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Hunyuan Video",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "InVideo",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Genmo AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Hailuo AI (MiniMax)",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Wan 2.1 AI Video",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "Text To Speech",
+    "tools": [
+      {
+        "name": "ElevenLabs",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Audiobox by Meta",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Murf AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "FreeTTS",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Uberduck",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "OpenVoice AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Zonos AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Speech Synthesis",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Play HT",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Free Text To Speech Online",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "Education / Studies",
+    "tools": [
+      {
+        "name": "Perplexity A",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Globe Explorer A",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Notion A",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Fireflies",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Coursera",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "DeepL",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Liner A",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Quizlet",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "E-commerce",
+    "tools": [
+      {
+        "name": "Adcreative AI by Semrush",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Magic by Shopify",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Pokecut",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Echowin AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Free AI Chatbot Builder",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Namelix",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Leffa",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Waymark",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Keychain",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Kolors Virtual",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "AI detection",
+    "tools": [
+      {
+        "name": "PimEyes",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Free Face Search Online",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "FaceCheck ID",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "DeepFake Detector",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Originality AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "ZeroGPT",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Lenso.ai",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Copyleaks",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "Human Resources",
+    "tools": [
+      {
+        "name": "AIApply",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "RemotePeople",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "JobCopilot",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Workleap",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Teal Resume Builder",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Kickresume",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Resume Worded",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Leet Resumes",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "AI Career Coach",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Careerflow",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  },
+  {
+    "category": "E-mail",
+    "tools": [
+      {
+        "name": "Klaviyo",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "MailerLite",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "GetResponse",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "HoppyCopy",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Free AI Email Writer",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "beehiiv AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Superhuman",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Notion Mail",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Mailchimp",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      },
+      {
+        "name": "Instantly AI",
+        "description": "Placeholder description",
+        "useCases": [],
+        "features": [],
+        "pricingSummary": "Placeholder pricing",
+        "websiteLink": "#",
+        "userSentiment": "Placeholder sentiment"
+      }
+    ]
+  }
+]
