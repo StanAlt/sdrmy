@@ -95,7 +95,7 @@ const aiToolsData = [
 const initialNodes = [];
 const nodeSpacingX = 250;
 const nodeSpacingY = 150;
-const categorySpacingY = 400;
+// const categorySpacingY = 400;
 let categoryY = 100;
 let toolIdCounter = 100; // Start tool IDs after category IDs
 

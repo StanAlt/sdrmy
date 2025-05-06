@@ -61,7 +61,7 @@ export default function ContactPage() {
     <div className="max-w-2xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl md:text-4xl font-bold text-sd-army-gray-dark mb-8 text-center">Contact Us</h1>
       <p className="text-center text-muted-foreground mb-8">
-        Have questions about AI sales agents or want to discuss a custom solution? Fill out the form below, and we'll get back to you shortly.
+        Have questions about AI sales agents or want to discuss a custom solution? Fill out the form below, and we&apos;ll get back to you shortly.
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-lg shadow-md">

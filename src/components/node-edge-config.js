@@ -3,8 +3,8 @@ import aiToolsData from "@/lib/data.json"; // Import the full data
 
 const initialNodes = [];
 const initialEdges = [];
-const nodeSpacingX = 300; // Increased spacing for better layout
-const nodeSpacingY = 150;
+// const nodeSpacingX = 300; // Increased spacing for better layout
+// const nodeSpacingY = 150;
 const categoryAngleStep = (2 * Math.PI) / aiToolsData.length; // Distribute categories radially
 const categoryRadius = 400; // Radius for category nodes
 const toolRadiusStep = 100; // How much further out tools are from categories
@@ -97,7 +97,7 @@ aiToolsData.forEach((categoryData, categoryIndex) => {
   categoryData.tools.forEach((tool, toolIndex) => {
     const toolId = `${toolIdCounter++}`;
     const toolAngle = toolStartAngle + toolIndex * toolAngleStep;
-    const toolRadius = categoryRadius + toolRadiusStep + (toolIndex % 2) * 50; // Stagger radius slightly
+    // const toolRadius = categoryRadius + toolRadiusStep + (toolIndex % 2) * 50; // Stagger radius slightly
 
     // Add logoUrl - Placeholder logic: try to guess based on name, else use default
     // In a real app, this URL would come from the data or an API

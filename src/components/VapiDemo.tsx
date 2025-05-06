@@ -9,11 +9,11 @@ import { Button } from "@/components/ui/button"; // Assuming shadcn/ui button
 interface VapiDemoProps {
   vapiKey: string;
   assistantId?: string; // Optional: Use a specific assistant ID
-  assistantConfig?: any; // Optional: Use inline assistant config
+  assistantConfig?: Record<string, unknown>; // Optional: Use inline assistant config
 }
 
 const VapiDemo: React.FC<VapiDemoProps> = ({ vapiKey, assistantId, assistantConfig }) => {
-  const [vapiInstance, setVapiInstance] = useState<any>(null);
+  const [vapiInstance, setVapiInstance] = useState<Vapi | null>(null);
   const [isSessionActive, setIsSessionActive] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [assistantStatus, setAssistantStatus] = useState('Inactive'); // e.g., Inactive, Connecting, Active, Speaking, Listening
@@ -50,7 +50,7 @@ const VapiDemo: React.FC<VapiDemoProps> = ({ vapiKey, assistantId, assistantConf
         }
       });
 
-      vapi.on('volume-level', (level) => {
+      vapi.on("volume-level", (/* level */) => {
         // console.log(`VAPI Assistant volume level: ${level}`);
         // Could use this for UI feedback
       });

@@ -31,14 +31,14 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 // Import the configuration that uses the full data
-import { initialNodes as baseInitialNodes, initialEdges } from './node-edge-config.js'; // Renamed to avoid conflict
+import { initialEdges } from './node-edge-config.js'; // Renamed to avoid conflict
 import aiToolsData from "@/lib/data.json";
 
 // --- Layout Calculation Logic (Simplified for brevity, assuming it exists as before) ---
-const nodeSpacingX = 300;
-const nodeSpacingY = 150;
+// const nodeSpacingX = 300;
+// const nodeSpacingY = 150;
 const categoryRadius = 400;
-const toolRadiusStep = 100;
+// const toolRadiusStep = 100;
 const toolColor = "#1E90FF"; // Defined here for use in addTool
 
 const calculateRadialLayout = (categoriesData, existingNodes = []) => {
@@ -105,7 +105,7 @@ const calculateRadialLayout = (categoriesData, existingNodes = []) => {
           toolId = `${toolIdCounter++}`;
       }
       const toolAngle = toolStartAngle + toolIndex * toolAngleStep;
-      const toolRadius = categoryRadius + toolRadiusStep + (toolIndex % 2) * 50;
+      // const toolRadius = categoryRadius + toolRadiusStep + (toolIndex % 2) * 50;
 
       nodes.push({
         id: toolId,
