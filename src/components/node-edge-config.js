@@ -2,6 +2,7 @@ import { Position, MarkerType } from "@xyflow/react";
 import aiToolsData from "@/lib/data.json"; // Import the full data
 
 const initialNodes = [];
+/** @type {Array<import('@xyflow/react').Edge>} */
 const initialEdges = [];
 // const nodeSpacingX = 300; // Increased spacing for better layout
 // const nodeSpacingY = 150;
