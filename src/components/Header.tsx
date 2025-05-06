@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-background border-b border-border sticky top-0 z-10">
+    <header className="bg-background border-b border-[hsl(var(--border))] sticky top-0 z-10">
       <div className="container mx-auto flex justify-between items-center h-16 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -35,4 +35,3 @@ const Header = () => {
 };
 
 export default Header;
-
