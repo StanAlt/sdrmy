@@ -31,18 +31,18 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 // Import the configuration that uses the full data
-import { initialEdges } from './node-edge-config.js'; // Renamed to avoid conflict
+import { initialEdges } from './node-edge-config';
 import aiToolsData from "@/lib/data.json";
 
 // --- Layout Calculation Logic (Simplified for brevity, assuming it exists as before) ---
 // const nodeSpacingX = 300;
 // const nodeSpacingY = 150;
 const categoryRadius = 400;
-// const toolRadiusStep = 100;
+const toolRadiusStep = 100; // Defined for use in the component
 const toolColor = "#1E90FF"; // Defined here for use in addTool
 
-const calculateRadialLayout = (categoriesData, existingNodes = []) => {
-  const nodes = [];
+const calculateRadialLayout = (categoriesData: any, existingNodes: any[] = []) => {
+  const nodes: any[] = [];
   const centerColor = "#5D3FD3";
   const categoryColors = [
     "#FF6347", "#4682B4", "#32CD32", "#FFD700", "#6A5ACD", 
@@ -50,8 +50,8 @@ const calculateRadialLayout = (categoriesData, existingNodes = []) => {
   ];
   // const toolColor = "#1E90FF"; // Already defined above
   let toolIdCounter = 100;
-  const existingToolIds = new Set(existingNodes.filter(n => n.data?.isTool).map(n => parseInt(n.id)));
-  while (existingToolIds.has(toolIdCounter)) {
+  const existingToolIds = new Set(existingNodes.filter(n => n.data?.isTool).map(n => n.id));
+  while (existingToolIds.has(String(toolIdCounter))) {
       toolIdCounter++;
   }
 
@@ -99,8 +99,8 @@ const calculateRadialLayout = (categoriesData, existingNodes = []) => {
     const toolStartAngle = angle - ( (categoryData.tools.length -1) * toolAngleStep / 2 );
 
     categoryData.tools.forEach((tool, toolIndex) => {
-      const toolId = `${toolIdCounter++}`;
-      while (existingToolIds.has(toolId)) { // Ensure unique ID
+      let toolId = `${toolIdCounter++}`;
+      while (existingToolIds.has(String(toolId))) { // Ensure unique ID
           toolIdCounter++;
           toolId = `${toolIdCounter++}`;
       }
@@ -144,8 +144,8 @@ const calculateGridLayout = (categoriesData, existingNodes = []) => {
   ];
   // const toolColor = "#1E90FF"; // Already defined above
   let toolIdCounter = 100;
-  const existingToolIds = new Set(existingNodes.filter(n => n.data?.isTool).map(n => parseInt(n.id)));
-  while (existingToolIds.has(toolIdCounter)) {
+  const existingToolIds = new Set(existingNodes.filter(n => n.data?.isTool).map(n => n.id));
+  while (existingToolIds.has(String(toolIdCounter))) {
       toolIdCounter++;
   }
 
@@ -197,8 +197,8 @@ const calculateGridLayout = (categoriesData, existingNodes = []) => {
     // Arrange tools in a grid below the category
     const toolsPerRow = 3;
     categoryData.tools.forEach((tool, toolIndex) => {
-      const toolId = `${toolIdCounter++}`;
-      while (existingToolIds.has(toolId)) { // Ensure unique ID
+      let toolId = `${toolIdCounter++}`;
+      while (existingToolIds.has(String(toolId))) { // Ensure unique ID
           toolIdCounter++;
           toolId = `${toolIdCounter++}`;
       }
@@ -504,4 +504,3 @@ const MindMapWrapper = () => (
 );
 
 export default MindMapWrapper;
-
