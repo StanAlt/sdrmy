@@ -1,5 +1,4 @@
 {
-  "projectId": "sd-army-website",
   "builds": [
     { "src": "sdrmy/**", "use": "@vercel/next" }
   ],
