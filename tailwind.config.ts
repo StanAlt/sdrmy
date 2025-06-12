@@ -18,7 +18,18 @@ const config = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
+        border: {
+          DEFAULT: "hsl(var(--border))",
+          100: "hsl(var(--border-100))",
+          200: "hsl(var(--border-200))",
+          300: "hsl(var(--border-300))",
+          400: "hsl(var(--border-400))",
+          500: "hsl(var(--border-500))",
+          600: "hsl(var(--border-600))",
+          700: "hsl(var(--border-700))",
+          800: "hsl(var(--border-800))",
+          900: "hsl(var(--border-900))",
+        },
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
@@ -86,4 +97,3 @@ const config = {
 };
 
 export default config;
-

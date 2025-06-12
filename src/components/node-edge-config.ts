@@ -1,8 +1,8 @@
-import { Position, MarkerType } from "@xyflow/react";
+import { Position, MarkerType, Edge, Node } from "@xyflow/react";
 import aiToolsData from "@/lib/data.json"; // Import the full data
 
-const initialNodes = [];
-const initialEdges = [];
+const initialNodes: Node[] = [];
+const initialEdges: Edge[] = [];
 // const nodeSpacingX = 300; // Increased spacing for better layout
 // const nodeSpacingY = 150;
 const categoryAngleStep = (2 * Math.PI) / aiToolsData.length; // Distribute categories radially
@@ -46,7 +46,7 @@ initialNodes.push({
     border: "3px solid white",
   },
   zIndex: 100, // Ensure it's above edges
-});
+} as Node);
 
 // --- Category and Tool Nodes ---
 aiToolsData.forEach((categoryData, categoryIndex) => {
@@ -74,7 +74,7 @@ aiToolsData.forEach((categoryData, categoryIndex) => {
       border: "2px solid white",
     },
     zIndex: 50,
-  };
+  } as Node;
   initialNodes.push(categoryNode);
 
   // Edge from Center to Category
@@ -89,7 +89,7 @@ aiToolsData.forEach((categoryData, categoryIndex) => {
     },
     style: { stroke: categoryColor, strokeWidth: 2 },
     zIndex: 1,
-  });
+  } as Edge);
 
   const toolAngleStep = (Math.PI / 8) / Math.max(1, categoryData.tools.length -1); // Smaller angle step for tools around category
   const toolStartAngle = angle - ( (categoryData.tools.length -1) * toolAngleStep / 2 );
@@ -138,7 +138,7 @@ aiToolsData.forEach((categoryData, categoryIndex) => {
         // padding: "8px", // Padding handled by custom node
       },
       zIndex: 10,
-    };
+    } as Node;
     initialNodes.push(toolNode);
 
     // Edge from Category to Tool
@@ -153,9 +153,8 @@ aiToolsData.forEach((categoryData, categoryIndex) => {
       },
       style: { stroke: toolColor, strokeWidth: 1.5 },
       zIndex: 1,
-    });
+    } as Edge);
   });
 });
 
 export { initialNodes, initialEdges };
-

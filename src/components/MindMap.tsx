@@ -31,7 +31,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 // Import the configuration that uses the full data
-import { initialEdges } from './node-edge-config.js'; // Renamed to avoid conflict
+import { initialEdges } from './node-edge-config';
 import aiToolsData from "@/lib/data.json";
 
 // --- Layout Calculation Logic (Simplified for brevity, assuming it exists as before) ---
@@ -504,4 +504,3 @@ const MindMapWrapper = () => (
 );
 
 export default MindMapWrapper;
-
