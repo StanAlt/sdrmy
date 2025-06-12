@@ -1,0 +1,13 @@
+{
+  "projectId": "sd-army-website",
+  "builds": [
+    { "src": "sdrmy/**", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "sdrmy/$1" }
+  ],
+  "github": {
+    "enabled": true,
+    "silent": true
+  }
+}
