@@ -1,5 +1,7 @@
-/** @type {import("tailwindcss").Config} */
-const config = {
+import type { Config } from "tailwindcss";
+import animatePlugin from "tailwindcss-animate";
+
+const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -20,15 +22,6 @@ const config = {
       colors: {
         border: {
           DEFAULT: "hsl(var(--border))",
-          100: "hsl(var(--border-100))",
-          200: "hsl(var(--border-200))",
-          300: "hsl(var(--border-300))",
-          400: "hsl(var(--border-400))",
-          500: "hsl(var(--border-500))",
-          600: "hsl(var(--border-600))",
-          700: "hsl(var(--border-700))",
-          800: "hsl(var(--border-800))",
-          900: "hsl(var(--border-900))",
         },
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -65,10 +58,12 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         // Custom SD Army colors inspired by Intercom
-        "sd-army-blue": "#0057FF", // Example primary blue
+        "sd-army-blue": "#0057FF", // Primary blue
         "sd-army-blue-light": "#E6F0FF",
-        "sd-army-green": "#00A37E", // Example accent green
-        "sd-army-orange": "#FF7A00", // Example accent orange
+        "sd-army-green": "#3CCF8E", // Vibrant light green (updated)
+        "sd-army-green-light": "#E4FFF0", // Light green background
+        "sd-army-orange": "#FF7A00", // Vibrant orange
+        "sd-army-orange-light": "#FFF0E4", // Light orange background
         "sd-army-gray-dark": "#1A202C", // Dark text
         "sd-army-gray": "#4A5568", // Medium gray text
         "sd-army-gray-light": "#E2E8F0", // Light gray background/borders
@@ -95,7 +90,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animatePlugin],
 };
 
 export default config;

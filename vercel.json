@@ -1,3 +1,4 @@
 {
-  "outputDirectory": "sdrmy/.next"
+  "buildCommand": "next build",
+  "framework": "nextjs"
 }

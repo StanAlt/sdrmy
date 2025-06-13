@@ -1,0 +1,3 @@
+[submodule "sdrmy"]
+	path = sdrmy
+	url = https://github.com/StanAlt/sdrmy-website.git

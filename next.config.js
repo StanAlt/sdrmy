@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'sdrmy/.next',
-  // Let Vercel handle routing via vercel.json
+  reactStrictMode: true,
+  swcMinify: true
 };
 
 module.exports = nextConfig;
