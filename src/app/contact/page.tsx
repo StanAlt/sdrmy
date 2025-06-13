@@ -67,7 +67,7 @@ export default function ContactPage() {
             Get in <span className="text-sd-army-orange">Touch</span>
           </h1>
           <p className="text-lg text-sd-army-gray">
-            Have questions about AI sales agents or want to discuss a custom solution for your team? We're here to help.
+            Have questions about AI sales agents or want to discuss a custom solution for your team? We&apos;re here to help.
           </p>
         </div>
       </div>

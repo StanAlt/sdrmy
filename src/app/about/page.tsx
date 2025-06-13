@@ -13,7 +13,7 @@ export default function AboutPage() {
             About <span className="text-sd-army-green">SD</span> Army
           </h1>
           <p className="text-lg text-sd-army-gray">
-            We're on a mission to transform B2B sales through intelligent AI agents that make SDRs superhuman.
+            We&apos;re on a mission to transform B2B sales through intelligent AI agents that make SDRs superhuman.
           </p>
         </div>
       </div>
@@ -189,7 +189,7 @@ export default function AboutPage() {
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-sd-army-orange to-sd-army-green rounded-3xl p-8 md:p-12 text-white text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Supercharge Your Sales Team?</h2>
-        <p className="text-xl mb-8 max-w-3xl mx-auto">Let's discuss how SD Army's AI solutions can transform your sales development process</p>
+        <p className="text-xl mb-8 max-w-3xl mx-auto">Let&apos;s discuss how SD Army&apos;s AI solutions can transform your sales development process</p>
         <a 
           href="/contact" 
           className="inline-flex items-center justify-center rounded-md bg-white px-6 py-4 text-base font-medium text-sd-army-gray-dark shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"

@@ -8,8 +8,7 @@ import VapiDemo from "@/components/VapiDemo"; // Import the actual VapiDemo comp
 // IMPORTANT: Replace "YOUR_VAPI_PUBLIC_KEY" with the actual key provided by the user
 // It's best practice to store this in environment variables, especially for production.
 // Using a TypeScript-friendly approach to access env variables
-const VAPI_PUBLIC_KEY = typeof process !== 'undefined' && process.env?.NEXT_PUBLIC_VAPI_KEY ? 
-  process.env.NEXT_PUBLIC_VAPI_KEY : "YOUR_VAPI_PUBLIC_KEY_PLACEHOLDER";
+const VAPI_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPI_KEY || "YOUR_VAPI_PUBLIC_KEY_PLACEHOLDER";
 
 // Option 1: Use a specific Assistant ID (Provided by user)
 const VAPI_ASSISTANT_ID = "e885f700-0f85-46ba-8cfc-d736a03bb8df";
@@ -71,7 +70,7 @@ export default function DemoPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-sd-army-gray-dark">Voice Interaction</h3>
-                <p className="text-sd-army-gray">Speak naturally with our AI representative. You'll need to grant microphone permissions.</p>
+                <p className="text-sd-army-gray">Speak naturally with our AI representative. You&apos;ll need to grant microphone permissions.</p>
               </div>
             </div>
             
@@ -94,8 +93,8 @@ export default function DemoPage() {
             <ol className="list-decimal pl-5 space-y-2 text-sd-army-gray">
               <li>Click the button below to start the demo</li>
               <li>Allow microphone access when prompted</li>
-              <li>Speak naturally as if you're on a sales call</li>
-              <li>Try asking about SD Army's services or how AI can help your sales team</li>
+              <li>Speak naturally as if you&apos;re on a sales call</li>
+              <li>Try asking about SD Army&apos;s services or how AI can help your sales team</li>
             </ol>
           </div>
           

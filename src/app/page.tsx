@@ -140,7 +140,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-sd-army-gray-dark">Personalized Outreach</h3>
-                <p className="text-sd-army-gray mt-2">Our AI crafts genuine communications that resonate with prospects' interests and pain points.</p>
+                <p className="text-sd-army-gray mt-2">Our AI crafts genuine communications that resonate with prospects&apos; interests and pain points.</p>
               </div>
             </div>
             
