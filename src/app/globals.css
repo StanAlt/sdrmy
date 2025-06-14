@@ -1,80 +1,90 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    /* SD Army Primary Blue (Inspired by Intercom) */
-    --primary: 221 100% 50%; /* hsl(221, 100%, 50%) - Corresponds to #0057FF */
-    --primary-foreground: 0 0% 100%; /* White text on primary */
-
-    /* SD Army Secondary (Lighter blue/gray) */
-    --secondary: 210 40% 96.1%; /* Example: Light gray-blue */
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    /* SD Army Accent (Yellow from profile pic) */
-    --accent: 45 100% 51%; /* hsl(45, 100%, 51%) - Corresponds to #FFC107 */
-    --accent-foreground: 0 0% 100%; /* White text on accent */
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%; /* Corresponds to sd-army-gray-light */
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221 100% 50%; /* Use primary blue for focus rings */
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 221 100% 50%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 163 100% 32%;
-    /* OR --accent: 30 100% 50%; */
-    --accent-foreground: 0 0% 100%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 221 100% 50%;
-  }
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: hsl(214.3 31.8% 91.4%);
 }
 
-@layer base {
-  * {
-    @apply border-[hsl(var(--border))];
-  }
-  body {
-    @apply bg-white text-foreground;
-  }
+body {
+  background-color: white;
+  color: hsl(222.2 84% 4.9%);
+}
+
+/* CSS Variables */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+
+  /* SD Army Primary Blue */
+  --primary: 221 100% 50%; /* #0057FF */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --accent: 45 100% 51%; /* #FFC107 */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 221 100% 50%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+
+  --card: 222.2 84% 4.9%;
+  --card-foreground: 210 40% 98%;
+
+  --popover: 222.2 84% 4.9%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 221 100% 50%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --accent: 163 100% 32%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 221 100% 50%;
+}
+
+/* SD Army Custom Colors */
+:root {
+  --sd-army-blue: #0057FF;
+  --sd-army-blue-light: #E6F0FF;
+  --sd-army-green: #3CCF8E;
+  --sd-army-green-light: #E4FFF0;
+  --sd-army-orange: #FF7A00;
+  --sd-army-orange-light: #FFF0E4;
+  --sd-army-gray-dark: #1A202C;
+  --sd-army-gray: #4A5568;
+  --sd-army-gray-light: #E2E8F0;
+  --sd-army-yellow: #FFC107;
 }

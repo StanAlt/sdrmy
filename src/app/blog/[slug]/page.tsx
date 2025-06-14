@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
 
-type BlogPostParams = {
-  params: {
-    slug: string;
-  };
+type Props = {
+  params: { slug: string };
 };
 
 // This is a simple dynamic route for individual blog posts
-export default function BlogPost({ params }: BlogPostParams) {
+export default function BlogPost({ params }: Props) {
   // In a real app, you would fetch the blog post data based on the slug
   // For now, we'll use hardcoded content for demonstration
   const post = getBlogPostBySlug(params.slug);
